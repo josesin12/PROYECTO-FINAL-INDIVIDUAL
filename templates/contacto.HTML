@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFood - Contacto</title>
+    <link rel="stylesheet" href="/static/Stylescontacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">FastFood</h1>
+            <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/menu">Menú</a></li>
+                <li><a href="/promociones">Promociones</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/registro">Registrarse</a></li>
+                <li><a href="/contacto" class="active">Contacto</a></li>
+         
+            </ul>
+            
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Contáctanos y Haz tu Pedido</h2>
+        <p class="subtitle">¿Tienes alguna pregunta, sugerencia o quieres hacer un pedido grande? Estamos aquí para ayudarte.</p>
+
+        <div class="contact-container">
+            
+            <div class="contact-info">
+                <h3>Información Clave</h3>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <h4>Teléfono y Pedidos</h4>
+                    <p>+51 987 654 321</p>
+                    <p>Disponible de 6:00 a 22:00</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Correo Electrónico</h4>
+                    <p>soporte@fastfood.com</p>
+                    <p>Respuesta en menos de 24 horas</p>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Horario de Atención</h4>
+                    <p>Lunes a Sábado: 6:00 - 22:00</p>
+                    <p>Domingos: 8:00 - 20:00</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Envíanos un Mensaje</h3>
+                <form id="contactForm">
+                    
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2025 FastFood Web — Todos los derechos reservados</p>
+    </footer>
+    <script src="/static/contacto.js?v=1.1"></script> 
+</body>
+</body>
+</body>
+</html>

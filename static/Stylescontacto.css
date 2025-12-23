@@ -1,0 +1,234 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FAF8F5; 
+    color: #1A1A1A;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+main h2 {
+    font-size: 40px;
+    color: #E94437;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+header {
+    background-color: #E94437;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px 30px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu a:hover,
+.menu a.active {
+    background-color: #FFBB00; 
+    color: #1A1A1A;
+}
+
+.btn-register {
+    text-decoration: none;
+    background-color: #FFBB00; 
+    color: #1A1A1A;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #e5a800;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    padding: 30px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+.contact-info {
+    flex: 1;
+    padding: 30px;
+    border-right: 1px solid #eee;
+    background-color: #FDFDFD;
+    border-radius: 10px 0 0 10px;
+}
+
+.contact-info h3 {
+    font-size: 28px;
+    color: #E94437;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #FFBB00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.info-item {
+    margin-bottom: 25px;
+}
+
+.info-item i {
+    font-size: 24px;
+    color: #FFBB00;
+    margin-right: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+.info-item h4 {
+    display: inline;
+    font-size: 18px;
+    color: #1A1A1A;
+}
+
+.info-item p {
+    margin-left: 40px;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.social-links {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-links a i {
+    font-size: 30px;
+    color: #E94437;
+    transition: color 0.3s ease;
+}
+
+.social-links a i:hover {
+    color: #FFBB00;
+}
+
+.contact-form {
+    flex: 1.5; 
+    padding: 30px;
+}
+
+.contact-form h3 {
+    font-size: 28px;
+    color: #1A1A1A;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #E94437;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #E94437; 
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #d13e33;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #1A1A1A;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFood - Menú</title>
+    <link rel="stylesheet" href="/static/Stylesmenu.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">FastFood</h1>
+            <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/menu" class="active">Menú</a></li>
+                <li><a href="/promociones">Promociones</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/registro">Registrarse</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="menu-grid">
+        <div class="filtros">
+            <button class="btn-filtro" onclick="filtrar('todos')">Todos</button>
+            <button class="btn-filtro" onclick="filtrar('desayunos')">Desayunos</button>
+            <button class="btn-filtro" onclick="filtrar('almuerzos')">Almuerzos</button>
+            <button class="btn-filtro" onclick="filtrar('cenas')">Cenas</button>
+        </div>
+        <section class="category-section">
+            <h2>Desayunos</h2>
+            <p>Disfruta de nuestras opciones frescas con envíos desde las 6:00 hasta las 22:00 horas del día. ¡Aprovecha las promociones con grandes descuentos!</p>
+            
+            <div class="products-container"> <div class="product-card">
+                    <img src="/static/desayuno01.png" alt="Tostada de Aguacate y Huevo Poché">
+                    <h4>Tostada de Aguacate y Huevo Poché</h4>
+                    <p>Fresco y nutritivo, el mejor inicio para tu mañana.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/static/desayuno02.jpg" alt="Avena cocida con leche de almendras">
+                    <h4>Avena con Leche de Almendras</h4>
+                    <p>Opción ligera y saludable, con toppings a tu gusto.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/static/imagen4.png" alt="Café Americano">
+                    <h4>Café Americano y Jugo de Frutas</h4>
+                    <p>Tu dosis de energía: Café Negro clásico y jugo de frutas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>Almuerzos</h2>
+            <p>Las mejores hamburguesas y combos de la ciudad.</p>
+
+            
+            <div class="products-container"> <div class="product-card">
+                    <img src="/static/cevihe.png" alt="Ceviche">
+                    <h4>Ceviche Costeño</h4>
+                    <p>Fresco y delicioso para dias Calurosos o en eventos especiales</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/static/arroz.png" alt="Arroz Chaufa">
+                    <h4>Arroz Chaufa</h4>
+                    <p>Indispensable para estar a gusto un dia de mucho trabajo </p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/static/descarga.jpg" alt="Lomo Saldado">
+                    <h4>Lomo Saltado</h4>
+                    <p>Perfecto para compartir en familia, amigos y conocidos</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2>Cenas</h2>
+            <p>Los mejores platos antes de terminar el día</p>
+
+            
+            <div class="products-container"> <div class="product-card">
+                    <img src="/static/salteado de pollo.png de pollo.png" alt="Salteado de Pollo con Verduras">
+                    <h4>Salteado de Pollo con Verduras</h4>
+                    <p>Fresco y delicioso para dias Calurosos o en eventos especiales</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/static/tortilla-de-champinones-scaled.jpg" alt="Tortilla de Espinacas y Champiñones">
+                    <h4>Tortilla de Espinacas y Champiñones</h4>
+                    <p>Indispensable para estar a gusto un dia de mucho trabajo </p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="/static/tostadas de aguacate.png de aguacate.png" alt="Tostadas de Aguacate y Huevo">
+                    <h4>Tostadas de Agucate</h4>
+                    <p>Perfecto para compartir en familia, amigos y conocidos</p>
+                </div>
+            </div>
+        </section>
+        
+    </main> 
+    
+    <footer>
+        <p>© 2025 FastFood Web — Todos los derechos reservados</p>
+    </footer>
+    <script src="/static/filtros.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastFood - Promociones</title>
+    <link rel="stylesheet" href="/static/Stylespromo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">FastFood</h1>
+            <ul class="menu">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/menu">Menú</a></li>
+                <li><a href="/promociones" class="active">Promociones</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/registro">Registrarse</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Promociones Especiales de la Semana</h2>
+        <p style="text-align: center; margin-bottom: 30px; font-size: 18px;">¡Aprovecha nuestros combos irresistibles por tiempo limitado!</p>
+
+        <div class="promo-grid">
+            
+            <div class="promo-card">
+                <img src="/static/hamburguesa.pg.jpg" alt="Combo Hamburguesa Clásica" class="promo-image">
+                <div class="promo-content">
+                    <span class="promo-tag">¡SÚPER OFERTA!</span>
+                    <h3>Combo Clásico FastFood</h3>
+                    <p>Hamburguesa simple con queso, papas fritas medianas y bebida.</p>
+                    <div class="price-container">
+                        <span class="original-price">$12.50</span>
+                        <span class="current-price">$9.99</span>
+                    </div>
+                    <button class="btn-promo btn-add-cart" data-producto="Combo Clásico FastFood">Añadir al Carrito</button>
+                </div>
+            </div>
+
+            <div class="promo-card">
+                <img src="/static/tostadas.png" alt="Dos Desayunos Completos" class="promo-image">
+                <div class="promo-content">
+                    <span class="promo-tag">DESAYUNO DUO</span>
+                    <h3>Desayuno Familiar x2</h3>
+                    <p>Dos porciones de Tostadas de Aguacate y dos cafés o jugos.</p>
+                    <div class="price-container">
+                        <span class="original-price">$16.00</span>
+                        <span class="current-price">$12.80</span>
+                    </div>
+                    <button class="btn-promo btn-add-cart" data-producto="Desayuno Familiar x2">Añadir al Carrito</button>
+                </div>
+            </div>
+            
+            <div class="promo-card">
+                <img src="/static/salteado de pollo.png" alt="Salteado de Pollo con Verduras" class="promo-image">
+                <div class="promo-content">
+                    <span class="promo-tag">¡CENA SALUDABLE!</span>
+                    <h3>Salteado de Pollo y Bebida</h3>
+                    <p>Salteado de Pollo con Verduras (del menú Cenas) y refresco light.</p>
+                    <div class="price-container">
+                        <span class="original-price">$14.90</span>
+                        <span class="current-price">$11.50</span>
+                    </div>
+                    <button class="btn-promo btn-add-cart" data-producto="Salteado de Pollo y Bebida">Añadir al Carrito</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 FastFood Web — Todos los derechos reservados</p>
+    </footer>
+
+    <script src="/static/productos.js"></script>
+</body>
+</html>
